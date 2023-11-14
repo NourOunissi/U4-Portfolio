@@ -73,7 +73,8 @@ body{
     z-index: 10;
 }
 .right-container img{
-    left: -2px;
+    /* Correction PK, pas sûr que ce soit la meilleure solution */
+    left: -18px;
 }
 .timeline::after{
     content: '';
@@ -115,14 +116,15 @@ left-container-arrow{
     right: -15px;
 }
 right-container-arrow{
-    height: 0;
-    width: 0;
+    height: 16px;
+    width: 16px;
     position: absolute;
     top: 28px;
     z-index: 1;
-    border-top: 15px solid transparent;
+    border: solid 1px red;
+    /* border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-    border-right: 15px solid rgb(130, 12, 31);
+    border-right: 15px solid rgb(130, 12, 31); */
     left: -15px;
 }
 
