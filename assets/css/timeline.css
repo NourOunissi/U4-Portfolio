@@ -12,7 +12,7 @@ body{
     max-width: 1200px;
     margin: 100px auto;
 }
-.container{
+.containertimeline{
     padding: 10px 50px;
     position: relative;
     width: 50%;
@@ -31,22 +31,22 @@ body{
     }
 }
 
-.container:nth-child(1){
+.containertimeline:nth-child(1){
     animation-delay: 0s;
 }
-.container:nth-child(2){
+.containertimeline:nth-child(1):nth-child(2){
     animation-delay: 1s;
 }
-.container:nth-child(3){
+.containertimeline:nth-child(3){
     animation-delay: 2s;
 }
-.container:nth-child(4){
+.containertimeline:nth-child(4){
     animation-delay: 3s;
 }
-.container:nth-child(5){
+.containertimeline:nth-child(5){
     animation-delay: 4s;
 }
-.container:nth-child(6){
+.containertimeline:nth-child(6){
     animation-delay: 5s;
 }
 
@@ -58,13 +58,13 @@ body{
     border-radius: 6px;
     font-size: 15px;
 }
-.left-container{
+.left-containertimeline{
     left: 0;
 }
-.right-container{
+.right-containertimeline{
     left: 50%;
 }
-.container img{
+.containertimeline img{
     position: absolute;
     width: 40px;
     border-radius: 50%;
@@ -72,8 +72,8 @@ body{
     top: 32px;
     z-index: 10;
 }
-.right-container img{
-    left: -2px;
+.right-containertimeline img{
+    left: -20px;
 }
 .timeline::after{
     content: '';
@@ -103,7 +103,7 @@ body{
     display: inline-block;
     margin-bottom: 15px
 }
-left-container-arrow{
+left-containertimeline-arrow{
     height: 0;
     width: 0;
     position: absolute;
@@ -114,7 +114,7 @@ left-container-arrow{
     border-left: 15px solid #cc1919;
     right: -15px;
 }
-right-container-arrow{
+right-containertimeline-arrow{
     height: 0;
     width: 0;
     position: absolute;
@@ -136,7 +136,7 @@ right-container-arrow{
 .timeline::after{
     left: 31px;
 }
-.container{
+.containertimeline{
     width: 100%;
     padding-left: 80px;
     padding-right: 25px;
@@ -147,16 +147,16 @@ right-container-arrow{
 .text-box small{
     margin-bottom: 10px;
 }
-.right-container{
+.right-containertimeline{
     left: 0;
 }
 
-.left-container img, .right-container img{
+.left-containertimeline img, .right-containertimeline img{
     left: 10px;
 }
 
-.left-container-arrow, .right-container-arrow{
-    border-right: 15px solid #fff;
+.left-containertimeline-arrow, .right-containertimeline-arrow{
+    border-right: 15px solid #0b0707;
     border-left: 0;
     left: -15px;
 }
