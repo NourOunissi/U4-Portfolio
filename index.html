@@ -527,9 +527,9 @@
         </div>
       </div>
 
-
+     
       <form action="#" method="post">
-        <form action="envoi_mail.php" method="POST"class="flex">
+        <form action="envoi_mail.php" method="POST" onsubmit="showConfirmation(event)" class="flex">
 
           <label for="nom">Nom :</label>
           <input type="text" id="nom" name="nom" required>
@@ -544,7 +544,7 @@
           <textarea id="message" name="message" rows="4" required></textarea>
 
           <div class="d-grid gap-2">
-            <button class="btn btn-primary" type="submit">Envoyer</button>
+            <button class="btn btn-danger" type="submit">Envoyer</button>
           </div>
         </form>
 
@@ -587,9 +587,6 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
-</body>
-
-</html>
 
 
 
@@ -597,26 +594,49 @@
 
 
 
+  <script>
+    function showConfirmation(event) {
+      event.preventDefault(); // Empêche l'envoi du formulaire par défaut
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      Swal.fire({
+        title: "Mail envoyé !",
+        text: "Votre courrier électronique a été envoyé avec succès.",
+        icon: "success",
+        confirmButtonText: "OK"
+      }).then(function () {
+        // Réinitialiser le formulaire ici si nécessaire
+        event.target.submit(); // Envoyer le formulaire après la confirmation
+      });
+    }
+  </script>
 
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
