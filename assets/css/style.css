@@ -29,7 +29,7 @@ a {
 }
 
 a:hover {
-  color: #0078ff;
+  color: rgba(0, 119, 255, 0.161);
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -40,7 +40,7 @@ a:hover {
 
 .color-a {
   text-decoration: none;
-  color: #0078ff;
+  color: #df70db;
 }
 
 .color-d {
@@ -168,7 +168,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #0078ff;
+  background-color: #df70db;
   margin: 0 auto;
 }
 
@@ -186,7 +186,7 @@ a:hover {
   content: "";
   position: absolute;
   height: 3px;
-  background-color: #0078ff;
+  background-color: #df70db;
   width: 100px;
   bottom: -12px;
 }
@@ -227,12 +227,12 @@ a:hover {
   border-radius: 50%;
   line-height: 1.6;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #0078ff;
+  box-shadow: 0 0 0 3px #df70db;
   transition: all 500ms ease;
 }
 
 .socials .ico-circle:hover {
-  background-color: #0078ff;
+  background-color: #df70db;
   color: #fff;
   box-shadow: 0 0 0 3px #cde1f8;
   transition: all 500ms ease;
@@ -256,7 +256,7 @@ a:hover {
 }
 
 .list-ico span {
-  color: #0078ff;
+  color:#df70db;
   margin-right: 10px;
 }
 
@@ -269,7 +269,7 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #0078ff;
+  box-shadow: 0 0 0 10px #df70db;
   display: block;
 }
 
@@ -314,7 +314,7 @@ a:hover {
   position: fixed;
   width: 42px;
   height: 42px;
-  background-color: #0078ff;
+  background-color: #df70db;
   opacity: 0.7;
   font-size: 1.6rem;
   line-height: 1.5;
@@ -338,7 +338,7 @@ a:hover {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #0078ff;
+  background: #df70db;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -352,7 +352,7 @@ a:hover {
 }
 
 .back-to-top:hover {
-  background: #298eff;
+  background: #df70db;
   color: #fff;
 }
 
@@ -379,7 +379,7 @@ a:hover {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #0078ff;
+  border-top: 6px solid #df70db;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -428,14 +428,14 @@ a:hover {
 }
 
 .button:hover {
-  background-color: #0062d3;
+  background-color: #df70db;
   color: #fff;
   transition: all 500ms ease;
 }
 
 .button-a {
   text-decoration: none;
-  background-color: #0078ff;
+  background-color: #df70db;
   color: #fff;
   border-color: #cde1f8;
 }
@@ -592,7 +592,7 @@ a:hover {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #0078ff;
+  color: #df70db;
 }
 
 .navbar .dropdown:hover>ul {
@@ -697,7 +697,7 @@ a:hover {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #0078ff;
+  color: #df70db;
 }
 
 .navbar-mobile .getstarted,
@@ -732,7 +732,7 @@ a:hover {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #0078ff;
+  color: #df70db;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -812,7 +812,7 @@ a:hover {
 
 .hero-single .breadcrumb {
   background-color: transparent;
-  color: #0078ff;
+  color: #df70db;
 }
 
 .hero-single .breadcrumb .breadcrumb-item:before {
@@ -863,7 +863,7 @@ a:hover {
 
 .skill-mf .progress .progress-bar {
   height: 0.7rem;
-  background-color: #0078ff;
+  background-color: #df70db;
 }
 
 /*--------------------------------------------------------------
@@ -880,7 +880,7 @@ a:hover {
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
   color: #fff;
-  background-color: #0078ff;
+  background-color: #df70db;
   box-shadow: 0 0 0 10px #cde1f8;
 }
 
@@ -981,12 +981,12 @@ a:hover {
 
 .work-content .w-like {
   font-size: 2.5rem;
-  color: #0078ff;
+  color: #df70db;
   float: right;
 }
 
 .work-content .w-like a {
-  color: #0078ff;
+  color: #df70db;
 }
 
 .work-content .w-like .num-like {
@@ -1198,7 +1198,7 @@ a:hover {
 
 .php-email-form input:focus,
 .php-email-form textarea:focus {
-  border-color: #0078ff;
+  border-color: #df70db;
 }
 
 .php-email-form input {
@@ -1211,7 +1211,7 @@ a:hover {
 }
 
 .php-email-form button[type=submit] {
-  background: #0078ff;
+  background: #df70db;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1219,7 +1219,7 @@ a:hover {
 }
 
 .php-email-form button[type=submit]:hover {
-  background: #3393ff;
+  background: #df70db;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1270,7 +1270,7 @@ a:hover {
   color: #fff;
   padding: 0 15px 5px;
   overflow: hidden;
-  background-color: #0078ff;
+  background-color: #df70db;
   border-radius: 4px;
 }
 
@@ -1339,7 +1339,7 @@ a:hover {
 }
 
 .blog-wrapper .post-meta ul {
-  border-left: 4px solid #0078ff;
+  border-left: 4px solid #df70db;
   margin-top: 1rem;
 }
 
@@ -1349,7 +1349,7 @@ a:hover {
 }
 
 .blog-wrapper .post-meta ul a {
-  color: #0078ff;
+  color: #df70db;
 }
 
 .blog-wrapper .post-meta ul span {
@@ -1357,7 +1357,7 @@ a:hover {
 }
 
 .blog-wrapper .blockquote {
-  border-left: 4px solid #0078ff;
+  border-left: 4px solid #df70db;
   padding: 18px;
   font-style: italic;
 }
@@ -1394,7 +1394,7 @@ a:hover {
 }
 
 .box-comments .list-comments a {
-  color: #0078ff;
+  color:#df70db;
 }
 
 .box-comments .list-comments span {
@@ -1410,7 +1410,7 @@ a:hover {
 .widget-sidebar .sidebar-title {
   font-size: 1.6rem;
   font-weight: 600;
-  border-left: 5px solid #0078ff;
+  border-left: 5px solid #df70db;
   padding-left: 15px;
   text-transform: uppercase;
   margin-bottom: 1.5rem;
@@ -1427,7 +1427,7 @@ a:hover {
   width: 10px;
   height: 1px;
   left: 0;
-  background-color: #0078ff;
+  background-color:#df70db;
   top: 20px;
 }
 
@@ -1438,8 +1438,8 @@ a:hover {
 }
 
 .sidebar-search .btn-search {
-  background-color: #0078ff;
-  border-color: #0078ff;
+  background-color: #df70db;
+  border-color: #df70db;
   border-radius: 0;
   padding-left: 20px;
   padding-right: 20px;
@@ -1447,7 +1447,7 @@ a:hover {
 
 .widget-tags ul li {
   display: inline-block;
-  background-color: #0078ff;
+  background-color: #df70db;
   padding: 0.2rem 0.6rem;
   margin-bottom: 0.5rem;
   border-radius: 15px;
@@ -1464,7 +1464,7 @@ footer {
   text-align: center;
   color: #fff;
   padding: 25px 0;
-  background: #0062d3;
+  background: #df70db;
 }
 
 footer .copyright {
@@ -1613,6 +1613,14 @@ button {
   padding: 10px 20px;
   background-color:rgb(178, 113, 151);
   color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.button.btn.btn-danger {
+  padding: 10px 20px;
+  background-color:#df70db;
+  color:#df70db;
   border: none;
   cursor: pointer;
 }
