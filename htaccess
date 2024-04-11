@@ -1,0 +1,9 @@
+AuthType Basic
+AuthName "Accès protégé"
+AuthUserFile /home/kuph3194/.htpasswd
+require valid-user
+
+RewriteEngine On 
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteCond %{HTTPS} !on
+RewriteRule ^(.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
